@@ -41,7 +41,7 @@
     width: min-content;
     white-space: nowrap;
     color: #f5d8ec;
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 500;
     font-family: 'Noto Serif';
 }
@@ -90,7 +90,7 @@
 
 .logo {
     color: #39312f;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
     font-family: 'PT Serif';
 }
@@ -106,7 +106,7 @@
 .menu a,
 .dropdown a {
     color: #39312f;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'Noto Serif';
     transition: all 0.3s ease;
@@ -215,11 +215,12 @@
     z-index: 2;
     width: 90%;
     text-align: center;
+    margin-top: 80px;
 }
 .home__title h1 {
     color: transparent;
-    font-size: 64px;
-    line-height: 96px;
+    font-size: 48px;
+    line-height: 80px;
     letter-spacing: 1px;
     font-family: 'Cairo';
     overflow-wrap: break-word;
@@ -256,7 +257,7 @@
 .company__topic {
     align-self: flex-start;
     width: 100%;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
     font-family: 'Noto Serif';
     color: #f3ecf3;
@@ -311,7 +312,7 @@
 }
 .tilesWrap__card p {
     color: #f3ecf3;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
 }
 
@@ -363,7 +364,7 @@
 
 .services__topic {
     color: #444244;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Noto Serif';
     transition: all 0.4s ease;
 }
@@ -425,7 +426,7 @@
     padding: 8px 0;
     width: 450px;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     white-space: nowrap;
     letter-spacing: 0.1px;
     font-family: 'Noto Serif';
@@ -469,9 +470,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     padding: 40px;
-    width: 450px;
+    width: 350px;
     background: #f9f4f4;
 }
 
@@ -482,7 +483,7 @@
 }
 
 .nickname {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Noto Serif';
     text-transform: uppercase;
 }
@@ -564,7 +565,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 24px;
 }
 .footer__content li {
@@ -583,7 +584,7 @@ footer {
 }
 
 .footer__contacts a {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .footer__support {
@@ -602,7 +603,7 @@ footer {
 
 .form__input {
     padding: 8px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Noto Serif';
     border-radius: 4px;
 }
@@ -616,10 +617,10 @@ footer {
     cursor: pointer;
     padding: 8px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Noto Serif';
     background-color: #232127;
 }
@@ -630,7 +631,7 @@ footer {
     justify-content: center;
     padding: 16px 0;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     background-color: #232127;
 }
@@ -641,97 +642,29 @@ footer {
     }
 }
 
-@media screen and (max-width: 1170px) {
-    .logo {
-        font-size: 28px;
-    }
-
-    .menu {
-        gap: 6px;
-    }
-    .menu a {
-        font-size: 16px;
-    }
-
-    .company__topic {
-        font-size: 24px;
-    }
-
-    .catalog__card:hover .card__head {
-        font-size: 20px;
-    }
-}
-
 @media screen and (max-width: 1110px) {
     .tilesWrap {
         padding: 0;
     }
 }
 
-@media screen and (max-width: 1070px) {
-    .logo {
-        font-size: 24px;
-    }
-
-    .menu a {
-        font-size: 14px;
-    }
-
-    .home__title h1 {
-        font-size: 56px;
-        line-height: 80px;
-        letter-spacing: 1px;
-    }
-
-    .title {
-        font-size: 48px;
-    }
-
+@media screen and (max-width: 980px) {
     .services__box {
         width: calc(100% / 2 - 20px);
     }
 
-    .review {
-        width: 360px;
-    }
-
-    .info__name {
-        font-size: 28px;
-        line-height: 36px;
-    }
-
-    .footer__title {
-        font-size: 20px;
-    }
-
-    .footer__contacts a {
-        font-size: 18px;
-    }
-
-    .footer__support button {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 980px) {
     .catalog__card:nth-child(3n) {
         display: none;
     }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 900px) {
     .menu {
         display: none;
     }
 
     .menu__button {
         display: flex;
-    }
-
-    .home__title h1 {
-        font-size: 48px;
-        line-height: 68px;
-        letter-spacing: 1px;
     }
 
     .card__head {
@@ -760,11 +693,11 @@ footer {
     }
 
     .footer__content ul {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .footer__contacts a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .footer__support {
@@ -772,8 +705,12 @@ footer {
         grid-row-start: 2;
     }
 
+    .form__input {
+        font-size: 12px;
+    }
+
     .footer__support button {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .footer__sign {
@@ -782,26 +719,10 @@ footer {
 }
 
 @media screen and (max-width: 780px) {
-    .catalog__card:nth-child(-n + 2) {
-        display: none;
+    .logo {
+        font-size: 20px;
     }
 
-    .card__head {
-        font-size: 22px;
-    }
-
-    .catalog__card:hover .card__head {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .catalog__card:nth-child(-n + 4) {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
     .home__title h1 {
         font-size: 40px;
         line-height: 56px;
@@ -816,25 +737,44 @@ footer {
         font-size: 20px;
     }
 
-    .services__box {
-        width: 100%;
+    .catalog__card:nth-child(-n + 2) {
+        display: none;
     }
 
     .card__head {
-        width: 400px;
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .catalog__card:hover .card__head {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .catalog__card:nth-child(-n + 4) {
+        display: none;
+    }
+
+    .card__head {
+        font-size: 16px;
     }
 
     .catalog__card:hover .card__head {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contacts__text a {
+        font-size: 24px;
     }
 
     .footer__contacts {
         display: none;
     }
 
-    .contacts__text a {
-        font-size: 24px;
+    .footer__sign {
+        font-size: 12px;
     }
 }
 
@@ -847,6 +787,10 @@ footer {
         font-size: 32px;
         line-height: 48px;
         letter-spacing: 1px;
+    }
+
+    .services__box {
+        width: calc(100% - 20px);
     }
 
     .catalog__card:nth-child(even) {
