@@ -159,9 +159,9 @@
     right: 0;
     transform: translateX(100%);
     display: flex;
-    align-items: center;
     width: 50%;
     height: 100vh;
+    padding-top: 20%;
     border-radius: 2px;
     background-color: #817773;
     transition: all 0.3s ease;
@@ -177,9 +177,9 @@
 
 .dropdown__content {
     display: flex;
-    gap: 32px;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     height: 50%;
 }
@@ -473,7 +473,7 @@
     font-size: 16px;
     padding: 40px;
     width: 350px;
-    background: #f9f4f4;
+    background-color: #f9f4f4;
 }
 
 .review img {
@@ -503,7 +503,7 @@
     min-height: 100vh;
     height: min-content;
     width: 100%;
-    background: #f1f1f3;
+    background-color: #f1f1f3;
 }
 
 .contacts__content {
@@ -765,6 +765,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    .card__head {
+        font-size: 16px;
+    }
+
+    .catalog__card:hover .card__head {
+        font-size: 16px;
+    }
+
     .contacts__text a {
         font-size: 24px;
     }
@@ -783,17 +791,51 @@ footer {
         font-size: 20px;
     }
 
+    .home {
+        background: none;
+        background-color: #cfc4bf;
+    }
+
     .home__title h1 {
         font-size: 32px;
         line-height: 48px;
         letter-spacing: 1px;
     }
 
+    .company {
+        background: none;
+        background-color: #cfc4bf;
+    }
+
+    .services {
+        background: none;
+        background-color: #cfc4bf;;
+    }
+
     .services__box {
         width: calc(100% - 20px);
+    }
+
+    .catalog {
+        background: none;
+        background-color: #cfc4bf;
     }
 
     .catalog__card:nth-child(even) {
         display: none;
     }
+
+    .catalog__card:hover .card__head {
+        font-size: 14px;
+    }
+
+    .info__name {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+    }
+
 }
